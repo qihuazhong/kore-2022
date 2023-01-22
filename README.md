@@ -1,6 +1,6 @@
 # About
 
-This is the 4th place solution for the [Kore 2022 simulation](https://www.kaggle.com/competitions/kore-2022-beta/overview), a coding competition sponsored by Google.
+This is the 4th place winning solution for the [Kore 2022 simulation](https://www.kaggle.com/competitions/kore-2022-beta/overview), a coding competition sponsored by Google.
 
 It is a rule-based agent, forked from the [awesome bot](https://github.com/w9PcJLyb/kore-beta-bot) with major strategic changes and code re-rewrites.
 
@@ -12,21 +12,21 @@ It is a rule-based agent, forked from the [awesome bot](https://github.com/w9PcJ
 >
 > - This repo include legacy codes that tried to use reinforement learning to train the agent, but dropped and not used at the end.
 
-## Winning strategies
+# Winning strategies
 
-In terms of gaming strateties, a high-level 📝[write up](https://www.kaggle.com/competitions/kore-2022/discussion/340157) can be found here.
+## Gaming strateties
 
-Regarding **coding/computational** strategies, a few important features make this agent stand out in the competition.
+A high-level 📝[write up](https://www.kaggle.com/competitions/kore-2022/discussion/340157) can be found here.
 
-Since computation time is limited to 3s per step, and the number of actions is almost unbounded, efficient exploration of different actions become crucial.
+## Coding/computational strategies
 
-- Re-writing game logics into vectors/matrics operations with Numpy.
+Since computation time is limited to 3 seconds/step, and the number of actions is almost unbounded, efficient exploration of different actions become crucial. A few important features make this agent stand out in the competition.
 
+- **Re-writing game logics into vectors/matrics operations with Numpy.**
 - Pre-compute candidate routes.
-
 - Heavy use of LRU caching.
 
-## Developement History
+# Developement History
 
 TODO
 
